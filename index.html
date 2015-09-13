@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<title>YUI restaurants</title>
+</head>
+
+<body>
+    <div id="body-wrapper">
+
+        <h1>Restaurants in Los Angeles, California</h1>
+
+        <div id="search-engine">
+
+            <form>
+            <fieldset class="filter">
+                <input id="filter-input" type="text" disabled="disabled" value="Filter results..." placeholder="Filter results..." />
+            </fieldset>
+            </form>
+
+            <ul id="restaurant-categories" class="drag-and-drop-area"></ul>
+
+        </div>  <!--  #search-engine -->
+
+        <div id="restaurant-data">
+            <h3>Restaurant Information</h3>
+
+            <h6>Name</h6>
+            <p id="title">-</p>
+
+            <h6>Address</h6>
+            <p id="address">-</p>
+
+            <h6>Average rating</h6>
+            <p id="rating">-</p>
+
+            <h6>Phone number</h6>
+            <p id="phone">-</p>
+
+            <h6>Link to Yahoo! local</h6>
+            <p id="link">-</p>
+
+        </div> <!--  #restaurant-data -->
+
+        <div class="clear"></div>
+
+    </div>  <!--  #body-wrapper -->
+
+    <script src="js/yui-min.js" type="text/javascript"></script>
+    <script src="js/drag-and-drop.js" type="text/javascript"></script>
+    <script src="js/general.js" type="text/javascript"></script>
+
+</body>
+</html>
